@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
+/* bold */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700;800&display=swap');
+/* extra bold */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+/* medium */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+
+section {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(241, 81%, 54%);
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 80vh;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+}
+
+main {
+    display:flex;
+    width: 230vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.icons {
+    text-align: start;
+}
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 96%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: start;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 95%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: start;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(165, 86%, 92%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: start;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.visual{
+    color: hsl(263, 47%, 50%);
+    background-color: hsl(242, 100%, 94%);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: start;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.button-continue{
+    background-color: hsl(241, 81%, 54%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 50px;
+    padding: 15px 150px;
+    border-radius: 55px;
+    font-size: 15pt;
+}
+
+footer {
+   margin-top: 50px;
+   margin-left: 80vh;
+}
